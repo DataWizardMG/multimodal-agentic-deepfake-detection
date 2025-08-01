@@ -1,0 +1,27 @@
+# Logs and cache
+audit_logs/
+model_cache/
+
+# Development notebooks and scripts
+notebooks/
+scripts/
+src/
+
+# Pretrained and trained models
+training_scripts/pretrained_models/*
+training_scripts/best_AudioModel.pth
+training_scripts/best_ImageModel.pth
+training_scripts/best_TextModel.pth
+training_scripts/best_VideoModel.pth
+
+# Uploads and vector database
+uploads/*
+vector_db
+
+# Temporary or local-only files
+app copy.py
+deepfakes.code-workspace
+
+# Node modules (frontend)
+node_modules/
+build/
